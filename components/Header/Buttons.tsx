@@ -1,7 +1,7 @@
 import { scroller } from "react-scroll";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import TelegramIcon from '@material-ui/icons/Telegram'
 import ForumIcon from "@material-ui/icons/Forum";
 import CodeIcon from "@material-ui/icons/Code";
 import { Box, IconButton, Link, Button } from "@material-ui/core";
@@ -54,7 +54,7 @@ function Buttons() {
           itemProp="sameAs"
         >
           <IconButton
-            aria-label="Github repository link"
+            aria-label="Linkedin Profile link"
             aria-haspopup="true"
             color="inherit"
           >
@@ -69,11 +69,11 @@ function Buttons() {
           itemProp="sameAs"
         >
           <IconButton
-            aria-label="Github repository link"
+            aria-label="Telegram Link"
             aria-haspopup="true"
             color="inherit"
           >
-            <TwitterIcon fontSize="large" />
+            <TelegramIcon fontSize="large" />
           </IconButton>
         </Link>
       </Box>

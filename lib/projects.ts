@@ -44,7 +44,7 @@ const projects: Projects = {
     ],
     images: {
       main: {
-        link: "../public/assets/dvs_home.png",
+        link: "/project/dvs/dvs_home.png",
         width: 1182,
         height: 732,
       },
@@ -74,11 +74,11 @@ const projects: Projects = {
       "Customized for the students studing in university."
     ],
     images: {
-      main: {
-        link: "../public/assets/auxilar_home.png",
-        width: 1903,
-        height: 894,
-      },
+      webm:'/project/auxilar/auxilar.webm',
+      mp4: "/project/auxilar/auxilar.mp4",
+      poster: "/project/auxilar/auxilar_home.png",
+      vidHeight: 676,
+      vidWidth: 963,
     },
     stack: [
       logos.nodejs,
@@ -195,7 +195,7 @@ const projects: Projects = {
     ],
     links: {
       live: "https://bhavya.dev",
-      github: "https://github.com/anddyhung/portfolio",
+      github: "https://github.com/anddyhung/myportfolio",
     },
     stack: [
       logos.typescript,
