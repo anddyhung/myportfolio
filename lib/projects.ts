@@ -194,7 +194,7 @@ const projects: Projects = {
       "This description is typed as **markdown** in source code, the Project component takes in props for links, icons, title, images, etc; nothing is hard coded.",
     ],
     links: {
-      live: "https://bhavya.dev",
+      live: "https://myportfolio-flax-theta.vercel.app/",
       github: "https://github.com/anddyhung/myportfolio",
     },
     stack: [

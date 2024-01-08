@@ -1,4 +1,4 @@
-Sitemap: https://bhavya.dev/sitemap.xml
+Sitemap: https://https://myportfolio-flax-theta.vercel.app//sitemap.xml
 
 User-agent: *
 Allow: /*
