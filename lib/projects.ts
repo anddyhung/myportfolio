@@ -35,6 +35,125 @@ type Projects = {
 };
 
 const projects: Projects = {
+  connect4: {
+    title: "Mintlayer Node App",
+    description: [
+      "Mintlayer Node App is Tauri app that create, import, encrypt wallet and then stake, delegate, send ML token.",
+      "The frontend is built using **React** and styled using **Tailwind CSS** and backend built using **Rust**.",
+      "The app supports multiple functionalities parallel, means people can do several actions at the same time without any interference.",
+    ],
+    stack: [
+      logos.tauri,
+      logos.react,
+      logos.rust,
+      logos.tailwindcss,
+      logos.git,
+      logos.typescript,
+      logos.cicd,
+      logos.github,
+      logos.vite,
+    ],
+    links: {
+      live: "https://github.com/mintlayer/mintlayer-node-app",
+    },
+    images: {
+      main: {
+        link: "/project/mintlayer/staking.png",
+        width: 1173,
+        height: 847,
+      },
+    },
+  },
+  covid19: {
+    title: "Apexpad",
+    description: [
+      "Apexpad Token Creator/Locker platform on Near chain.",
+      "This web app can be used to create token and then create pool, liquidity, lock token, LP token.",
+      "There is also used to list all tokens created on this platform and display realtime token info.",
+      "The smart contract of this platform is developed with Rust and frontend developed with Next.js, styled using **material-ui** and is fully responsive for all screen sizes and has a **dark mode** toggle. ",
+    ],
+    images: {
+      main: {
+        link: "/project/apexpad/near_creator_new.png",
+        width: 1173,
+        height: 751,
+      },
+    },
+    stack: [
+      logos.rust,
+      logos.tailwindcss,
+      logos.nextjs,
+      logos.nginx,
+      logos.cicd,
+      logos.s3,
+      logos.git,
+      logos.materialui,
+      logos.typescript,
+      logos.d3js,
+      logos.kubernetes,
+    ],
+    links: {
+      live: "https://apexpad.finance/",
+    },
+  },
+
+  getItDone: {
+    title: "Stakeverses",
+    description: [
+      "NFT staking platform for GameFi ecosystem",
+      "This platform is integrated with NFT marketplace platform",
+      "The application is made using **Solidity**, **React** and styled using **Tailwind CSS.**",
+      "Features of the app are **Stake, Deposit, Withdraw**. Create benefit by NFT staking",
+    ],
+    links: {
+      live: "https://stakeverses.com/",
+    },
+    stack: [
+      logos.solidity,
+      logos.hardhat,
+      logos.polygon,
+      logos.aws,
+      logos.jira,
+      logos.confluence,
+      logos.react,
+      logos.cicd,
+      logos.vite,
+    ],
+    images: {
+      main: {
+        link: "/project/staking/stake_home.png",
+        width: 1173,
+        height: 847,
+      },
+    },
+  },
+  urlShortener: {
+    title: "Factory Game",
+    description: [
+      "NFT marketplace project consists one part of GameFi Ecosystem.",
+      "As the title suggests, the app can be used to create, buy, sell NFTs for Factory game.",
+      "This NFT marketplace project is integrated with NFT staking platform.",
+      "The smart contract is developed with Solidity and deployed on Polygon and BSC.",
+    ],
+    images: {
+      main: {
+        link: "/project/factory/factory_info.png",
+        width: 964,
+        height: 751,
+      },
+    },
+    links: {
+      live: "https://factorygame.org/",
+    },
+    stack: [
+      logos.solidity,
+      logos.polygon,
+      logos.expressjs,
+      logos.materialui,
+      logos.react,
+      logos.hardhat,
+    ],
+  },
   devGram: {
     title: "Digital Value Stream",
     description: [
@@ -50,18 +169,20 @@ const projects: Projects = {
       },
     },
     stack: [
-      logos.trpc,
-      logos.nextjs,
+      logos.socketio,
+      logos.aws,
       logos.react,
       logos.mongodb,
-      // logos.graphql,
+      logos.graphql,
       logos.typescript,
       logos.nodejs,
-      logos.reactQuery,
       logos.materialui,
+      logos.redux,
+      logos.jira,
+      logos.confluence,
     ],
     links: {
-      live: "http://136.243.150.17",
+      live: "",
       github: "https://github.com/digitalvaluestream/frontend",
     },
   },
@@ -71,10 +192,10 @@ const projects: Projects = {
     description: [
       "Job site for the students in university.",
       "This was my first big **fullstack** project made by myself using **node.js** with **express.js** and styled using **TailwindCss**. Clients can post a new job and students search jobs and then request review to mentors. After reviewing by mentors, send proposals to client.",
-      "Customized for the students studing in university."
+      "Customized for the students studing in university.",
     ],
     images: {
-      webm:'/project/auxilar/auxilar.webm',
+      webm: "/project/auxilar/auxilar.webm",
       mp4: "/project/auxilar/auxilar.mp4",
       poster: "/project/auxilar/auxilar_home.png",
       vidHeight: 676,
@@ -85,103 +206,17 @@ const projects: Projects = {
       logos.expressjs,
       logos.s3,
       logos.mongodb,
-      logos.bootstrap,
-      logos.ejs,
+      logos.tailwindcss,
+      logos.jira,
+      logos.socketio,
+      logos.aws,
+      logos.vite,
+      logos.sass,
+      logos.docker,
     ],
     links: {
-      live: "http://3.88.116.42:3000",
+      live: "https://auxilar.org",
     },
-  },
-  covid19: {
-    title: "Covid-19 India tracker",
-    description: [
-      "Covid-19 tracker for India made using **React.**",
-      "This web app can be used to track current and historical data of India and its states and union territories. The web app shows a vector **map of India**, user may hover over any state and will be able to see the total confirmed, recovered, active and deceased for that state.",
-      "There is also a state-wise table of covid data which can be sorted by any column.",
-      "The app also features historical data using **charts** made using **[chartjs](https://www.chartjs.com)**, user may view data of any state and also choose the time frame and option between **daily** and **cumulative** data.",
-      "The application is styled using **material-ui** and is fully responsive for all screen sizes and has a **dark mode** toggle. ",
-    ],
-    images: {
-      webm: "/project/covid-19/c4.webm",
-      mp4: "/project/covid-19/c4.mp4",
-      poster: "/project/covid-19/poster.png",
-      vidHeight: 676,
-      vidWidth: 963,
-    },
-    stack: [logos.chartjs, logos.react, logos.materialui],
-    links: {
-      live: "https://covid-tracker-beta.vercel.app/",
-    },
-  },
-  connect4: {
-    title: "Connect-4 Online Multiplayer",
-    description: [
-      "Connect-4 board game that allows you to **play with anyone around the world** with no registration or downloads. You and your friend just need to open the link in the browser and you're ready to play 🙂",
-      "The frontend is built using **React** and styled using **material-ui** and backend built using **node.js**.",
-      "**socket.io** library is used for live transfer of data from client to server using websockets.",
-      "The app supports multiple games running parallel, means multiple pair of people can play on the same website at the same time without any interference."    ],
-    stack: [logos.nodejs, logos.react, logos.socketio, logos.materialui],
-    links: {
-      live: "https://konnect-4.vercel.app/",
-    },
-    images: {
-      poster: "/project/connect-4/poster.jpeg",
-      mp4: "/project/connect-4/c4mp4.mp4",
-      webm: "/project/connect-4/c4webm.webm",
-      vidHeight: 958,
-      vidWidth: 1916,
-    },
-  },
-  getItDone: {
-    title: "Get-It-Done",
-    description: [
-      "Goal tracker app made with my friend for a **hackthon that we won.**",
-      "The challenge for the hackathon was to make a **CRUDy** web application for goal management.",
-      "The application is made using **React** and styled using **material-ui.**",
-      "Features of the app are **create, update, edit and delete** goals. Add **labels** to goal, Start a **timer to track** the time spent for goal, **timer keeps running even when the window is closed!**",
-      "**Filter** goals by hashtag and/or text, **sort** goals by time spent per goal.",
-      "View a **Bar graph** that displays the amount of time spent per goal.",
-      "Check this video made by my hackathon partner **Priya Aswani** **[explaining how it works](https://www.linkedin.com/posts/activity-6755554068011319296-VlpE)**",
-    ],
-    links: {
-      live: "https://get-it-done-git-master-juggernaut9.vercel.app",
-    },
-    stack: [logos.react, logos.chartjs, logos.materialui, logos.vercel],
-    images: {
-      main: {
-        link: "/project/get-it-done/main.png",
-        width: 1173,
-        height: 847,
-      },
-    },
-  },
-  urlShortener: {
-    title: "URL shortener",
-    description: [
-      "My very first **fullstack Typescript** web application.",
-      "As the title suggests, the app can be used to shorten urls that can be shared with anyone on the internet.",
-      "A **QR code** is also generated when submitting a URL that can be scanned to redirect to the original URL.",
-      "The frontend is built using **React** with **Material-UI** for styling.",
-      "The backend is build with **Node.js** with **Express.js** framework along with **MongoDB** database to store the URLs.",
-    ],
-    images: {
-      main: {
-        link: "/project/url-short/main.png",
-        width: 964,
-        height: 751,
-      },
-    },
-    links: {
-      live: "https://short-url-three.vercel.app/",
-    },
-    stack: [
-      logos.typescript,
-      logos.react,
-      logos.expressjs,
-      logos.materialui,
-      logos.mongodb,
-      logos.nodejs,
-    ],
   },
   thisWebsite: {
     title: "This website",
@@ -195,7 +230,7 @@ const projects: Projects = {
     ],
     links: {
       live: "https://myportfolio-flax-theta.vercel.app/",
-      github: "https://github.com/anddyhung/myportfolio",
+      github: "https://github.com/waytothevenus/myportfolio",
     },
     stack: [
       logos.typescript,
@@ -240,7 +275,7 @@ const projects: Projects = {
       "The project received about **55 pull requests in total!!**",
     ],
     links: {
-      live: "https://pokemon-hacktoberfest.vercel.app/"
+      live: "https://pokemon-hacktoberfest.vercel.app/",
     },
     stack: [logos.github, logos.git, logos.react, logos.bootstrap],
     images: {
@@ -261,7 +296,7 @@ const projects: Projects = {
       "There are also two ways to **share jokes**, either copy the link that will take you to the webpage for that joke, or copy the joke directly to computer's **clipboard.**",
     ],
     links: {
-      live: "https://jokes-hooks.vercel.app/"
+      live: "https://jokes-hooks.vercel.app/",
     },
     stack: [logos.react, logos.materialui],
     images: {

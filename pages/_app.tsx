@@ -292,10 +292,10 @@ export function MyApp({ Component, pageProps }: AppProps) {
         {/* PWA primary color */}
         <meta name="theme-color" content="#161625" />
         {/* <!-- Primary Meta Tags --> */}
-        <meta name="title" content="Andy Hung" />
+        <meta name="title" content="Kim Daryl Cesista" />
         <meta
           name="description"
-          content="Hi, I am Andy Hung, an adventurer in web development."
+          content="Hi, I am Kim Daryl Cesista, an adventurer in web development."
           key="description"
         />
 
@@ -305,10 +305,10 @@ export function MyApp({ Component, pageProps }: AppProps) {
           property="og:url"
           content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}`}
         />
-        <meta property="og:title" content="Andy Hung" />
+        <meta property="og:title" content="Kim Daryl Cesista" />
         <meta
           property="og:description"
-          content="Hi, I am Andy Hung, an adventurer in web development."
+          content="Hi, I am Kim Daryl Cesista, an adventurer in web development."
           key="og-description"
         />
         <meta
@@ -325,10 +325,10 @@ export function MyApp({ Component, pageProps }: AppProps) {
           property="twitter:url"
           content={`https://${process.env.NEXT_PUBLIC_VERCEL_URL}`}
         />
-        <meta property="twitter:title" content="Andy Hung" />
+        <meta property="twitter:title" content="Kim Daryl Cesista" />
         <meta
           property="twitter:description"
-          content="Hi, I am Andy Hung, an adventurer in web development."
+          content="Hi, I am Kim Daryl Cesista, an adventurer in web development."
           key="twitter-description"
         />
         <meta
@@ -380,7 +380,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
             // component="a"
             // href="/#"
             variant="h6"
-          >{`< Andy />`}</Typography>
+          >{`< KD Cesista />`}</Typography>
           {/* </Link> */}
           <div className={classes.navbarRight}>
             <Hidden mdDown>

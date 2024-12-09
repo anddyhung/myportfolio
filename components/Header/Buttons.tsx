@@ -1,7 +1,7 @@
 import { scroller } from "react-scroll";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import TelegramIcon from '@material-ui/icons/Telegram'
+import TelegramIcon from "@material-ui/icons/Telegram";
 import ForumIcon from "@material-ui/icons/Forum";
 import CodeIcon from "@material-ui/icons/Code";
 import { Box, IconButton, Link, Button } from "@material-ui/core";
@@ -32,7 +32,7 @@ function Buttons() {
     <>
       <Box mx={-1}>
         <Link
-          href="https://github.com/anddyhung"
+          href="https://github.com/waytothevenus"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -47,7 +47,7 @@ function Buttons() {
           </IconButton>
         </Link>
         <Link
-          href="https://www.linkedin.com/in/andyhung/"
+          href="https://www.linkedin.com/in/kim-cesista-806350340/"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -62,7 +62,7 @@ function Buttons() {
           </IconButton>
         </Link>
         <Link
-          href="https://t.me/anddyhung"
+          href="https://t.me/oxjust"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"

@@ -26,7 +26,25 @@ type logoNames =
   | "framerMotion"
   | "trpc"
   | "cypress"
-  | "reactQuery";
+  | "reactQuery"
+  | "tauri"
+  | "vite"
+  | "mysql"
+  | "docker"
+  | "kubernetes"
+  | "jira"
+  | "cicd"
+  | "hardhat"
+  | "confluence"
+  | "d3js"
+  | "nginx"
+  | "polygon"
+  | "solidity"
+  | "tailwindcss"
+  | "mui"
+  | "graphql"
+  | "aws"
+  | "rust";
 
 type Logos = {
   [k in logoNames]: {
@@ -158,6 +176,74 @@ const logos: Logos = {
   reactQuery: {
     label: "React Query",
     logo: "/assets/icons/react-query.svg",
+  },
+  tauri: {
+    label: "Tauri",
+    logo: "/assets/icons/Tauri.svg",
+  },
+  rust: {
+    label: "Rust",
+    logo: "/assets/icons/Rust.svg",
+  },
+  mui: {
+    label: "Material UI",
+    logo: "/assets/icons/Material-UI.svg",
+  },
+  vite: {
+    label: "Vite.js",
+    logo: "/assets/icons/Vite.js.svg",
+  },
+  tailwindcss: {
+    label: "Tailwind CSS",
+    logo: "/assets/icons/Tailwind-CSS.svg",
+  },
+  solidity: {
+    label: "Solidity",
+    logo: "/assets/icons/Solidity.svg",
+  },
+  polygon: {
+    label: "Polygon",
+    logo: "/assets/icons/Polygon.svg",
+  },
+  nginx: {
+    label: "Nginx",
+    logo: "/assets/icons/NGINX.svg",
+  },
+  mysql: {
+    label: "MySQL",
+    logo: "/assets/icons/MySQL.svg",
+  },
+  kubernetes: {
+    label: "Kubernetes",
+    logo: "/assets/icons/Kubernetes.svg",
+  },
+  jira: {
+    label: "Jira",
+    logo: "/assets/icons/Jira.svg",
+  },
+  hardhat: {
+    label: "Hardhat",
+    logo: "/assets/icons/Hardhat.svg",
+  },
+  cicd: {
+    label: "CI/CD",
+    logo: "/assets/icons/GitHub-Actions.svg",
+  },
+  docker: {
+    label: "Docker",
+    logo: "assets/icons/Docker.svg",
+  },
+  d3js: {
+    label: "D3.js",
+    logo: "/assets/icons/D3.js.svg",
+  },
+  confluence: {
+    label: "Confluence",
+    logo: "/assets/icons/Confluence.svg",
+  },
+  aws: {
+    label: "AWS",
+    logo: "/assets/icons/AWS.svg",
   },
 };
 

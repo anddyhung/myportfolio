@@ -23,7 +23,7 @@ const IndexPage = () => {
   return (
     <>
       <Head>
-        <title>Andy Hung</title>
+        <title>KD Cesista</title>
       </Head>
       <motion.div
         key="index"

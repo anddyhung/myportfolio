@@ -8,12 +8,12 @@ import BackHomeButton from "components/Projects/BackHomeButton";
 import allProjects, { ProjectType } from "lib/projects";
 
 const projects: ProjectType[] = [
-  allProjects.devGram,
-  allProjects.dogmash,
-  allProjects.covid19,
   allProjects.connect4,
+  allProjects.covid19,
   allProjects.urlShortener,
   allProjects.getItDone,
+  allProjects.devGram,
+  allProjects.dogmash,
   allProjects.thisWebsite,
   allProjects.theMealHub,
   allProjects.pokemon,
@@ -24,20 +24,20 @@ function projectsPage() {
   return (
     <>
       <Head>
-        <title>Andy Hung - Projects</title>
+        <title>KD Cesista - Projects</title>
         <meta
           name="description"
-          content="Come check out projects made by Andy Hung."
+          content="Come check out projects made by KD Cesista."
           key="description"
         />
         <meta
           property="og:description"
-          content="Come check out projects made by Andy Hung."
+          content="Come check out projects made by KD Cesista."
           key="og-description"
         />
         <meta
           property="twitter:description"
-          content="Come check out projects made by Andy Hung."
+          content="Come check out projects made by KD Cesista."
           key="twitter-description"
         />
       </Head>

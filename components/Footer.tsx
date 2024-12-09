@@ -164,7 +164,7 @@ function Footer() {
                 <Grid item md={6} sm={6} className={classes.iconsGrid}>
                   <Link
                     className={classes.socialItem}
-                    href="https://github.com/anddyhung"
+                    href="https://github.com/waytothevenus"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -176,7 +176,7 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="https://www.linkedin.com/in/andyhung/"
+                    href="https://www.linkedin.com/in/kim-cesista-806350340/"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -188,7 +188,7 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="https://t.me/anddyhung"
+                    href="https://t.me/oxjust"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -200,13 +200,13 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="mailto:andyhung772@gmail.com"
+                    href="mailto:kimdarylcesista0707@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
                   >
                     <MailIcon fontSize="large" className={classes.icon} />
-                    <Typography>andyhung772@gmail.com</Typography>
+                    <Typography>kimdarylcesista0707@gmail.com</Typography>
                   </Link>
                 </Grid>
 
